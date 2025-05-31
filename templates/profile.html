@@ -1,0 +1,115 @@
+<main class="profile-main-section container mb-5">
+  <h4 class="profile-main-section_heading py-4">Профил</h4>
+  <div
+    class="profile-data mb-5 row gap-2 gap-lg-5 justify-content-center align-items-center"
+  >
+    <div
+      class="profile-img_container col-12 col-md-6 col-lg-3 mb-5 mx-3 mx-md-0 rounded-5"
+    ></div>
+    <form
+      class="form-logged-in-user ms-1 ms-m-3 flex-fill col-6 row justify-content-center align-items-center"
+    >
+      <div class="col-12 col-md-6">
+        <label for="name">Име и презиме / Корисничко име </label>
+        <input
+          type="text"
+          id="profileUsername"
+          class="form-control"
+          placeholder="Username"
+          aria-label="Name"
+          disabled
+        />
+        <label for="email">Емаил адреса</label>
+        <input
+          type="text"
+          id="profileEmail"
+          class="form-control"
+          placeholder="useruser@gmail.com"
+          aria-label="Email address "
+        />
+        <label for="email">Лозинка</label>
+        <input
+          type="password"
+          id="profilePassword"
+          class="form-control"
+          placeholder="*********"
+          aria-label="Password"
+          disabled
+        />
+      </div>
+
+      <div class="col-12 col-md-6">
+        <label for="birth-year">Година на раѓање</label>
+        <input
+          type="text"
+          id="profileBirthYear"
+          class="form-control"
+          placeholder="2007"
+          aria-label="Birth year"
+        />
+        <label for="gender">Пол</label>
+        <input
+          type="text"
+          id="profileGender"
+          class="form-control mb-3"
+          aria-label="Gender"
+        />
+        <div class="text-center text-md-start">
+          <button
+            type="submit"
+            class="btn save-profile-changes-btn fw-semibold"
+            id="saveProfileChangesBtn"
+          >
+            Промени
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="row text-light">
+    <p class="col-6">Следи го својот Safeblink напредок!</p>
+    <p class="col-6 text-end">Моментално ниво: Лорем ипсум</p>
+  </div>
+  <div
+    class="progress mb-5"
+    role="progressbar"
+    aria-label="Basic example"
+    aria-valuenow="25"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div class="progress-bar" style="width: 25%"></div>
+  </div>
+  <div class="profile-bagdes row">
+    <img
+      src="../assets/icons/badge1.png"
+      alt=""
+      class="col-6 col-lg-2 d-block profile-badge"
+    />
+    <img
+      src="../assets/icons/badge2.png"
+      alt=""
+      class="col-6 col-lg-2 d-block profile-badge"
+    />
+    <img
+      src="../assets/icons/badge3.png"
+      alt=""
+      class="col-6 col-lg-2 d-block profile-badge"
+    />
+    <img
+      src="../assets/icons/badge4.png"
+      alt=""
+      class="col-6 col-lg-2 d-block profile-badge"
+    />
+    <img
+      src="../assets/icons/badge5.png"
+      alt=""
+      class="col-6 col-lg-2 d-block profile-badge"
+    />
+    <img
+      src="../assets/icons/badge6.png"
+      alt=""
+      class="col-6 col-lg-2 d-block profile-badge"
+    />
+  </div>
+</main>

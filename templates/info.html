@@ -1,0 +1,81 @@
+<main class="info-main container">
+  <h1 class="info-main-heading py-4 text-center text-md-start">
+    Сѐ што треба да знаеш
+  </h1>
+  <div class="info-main-links d-flex flex-column mb-5">
+    <div class="d-flex justify-content-around mb-3">
+      <button class="info-btn_previous border-0 d-md-none">
+        <img
+          src="../assets/icons/table-arrow-disabled.png"
+          alt="arrow previous"
+        />
+      </button>
+      <a href="#" class="active info-carousel-item info-carousel-item-visible"
+        >Видеа</a
+      >
+      <a href="#" class="inactive d-md-block info-carousel-item">Упатства</a>
+      <a href="#" class="inactive d-md-block info-carousel-item">Статии</a>
+      <button class="info-btn-next border-0 d-md-none">
+        <img
+          src="../assets/icons/tabler_arrow-big-up-filled.png"
+          alt="arrow next"
+        />
+      </button>
+    </div>
+    <div class="info-carousel-dots d-md-none text-center">
+      <span class="dot selected-dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div
+    class="info-main-categories mb-5 d-flex flex-md-wrap justify-content-md-center align-items-center gap-3"
+  >
+    <button
+      class="info-filter-btn rounded-5 px-4 py-1"
+      id="most-watched-filter-btn"
+      data-category="most-watched"
+    >
+      Најгледани
+    </button>
+    <button
+      class="info-filter-btn rounded-5 px-4 py-1"
+      id="actual-filter-btn"
+      data-category="actual"
+    >
+      Актуелно
+    </button>
+
+    <button
+      class="info-filter-btn rounded-5 px-4 py-1"
+      id="privacy-filter-btn"
+      data-category="privacy"
+    >
+      Приватност
+    </button>
+
+    <button
+      class="info-filter-btn rounded-5 px-4 py-1"
+      id="alphabet-filter-btn"
+      data-category="alphabetic"
+    >
+      Азбучен редослед
+    </button>
+
+    <button
+      class="info-filter-btn rounded-5 px-4 py-1"
+      id="theme2-filter-btn"
+      data-category="theme2"
+    >
+      Тема 2
+    </button>
+    <button
+      class="info-filter-btn rounded-5 px-4 py-1"
+      id="theme3-filter-btn"
+      data-category="theme3"
+    >
+      Тема 3
+    </button>
+  </div>
+  <div class="cardsContainer mb-5"></div>
+</main>
