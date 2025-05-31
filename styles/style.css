@@ -825,7 +825,7 @@ video,
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 520px) {
   .main-cards {
     flex-direction: column;
   }
